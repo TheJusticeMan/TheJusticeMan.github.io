@@ -1,48 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justice Vellacott | Home</title>
+    <title>Im The Justice Man</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #1a1a1a;
-            color: white;
+            background-color: #121212;
+            color: #ffffff;
             margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100vh;
+            padding: 20px;
         }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
+
+        h1,
+        h2 {
+            color: #ffffff;
         }
-        p {
-            font-size: 1.2em;
-            margin-bottom: 30px;
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 20px 12.5%;
+            border-radius: 4em 2em;
+            box-shadow: 0 0 5em rgba(128, 128, 255, 1);
         }
-        a.button {
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5em 2.5em;
+        }
+
+        .button {
             display: inline-block;
-            background-color: #007bff;
-            color: white;
-            padding: 15px 25px;
-            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 10px;
             text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s ease;
+            color: #ffffff;
+            background-color: #000000;
+            border-radius: 1em 0.5em;
+            font-weight: bold;
+            transition: background 0.3s;
+            box-shadow: 0 0 1em -0.1em rgba(128, 128, 255, 1);
         }
-        a.button:hover {
+
+        .button:hover {
             background-color: #0056b3;
+        }
+
+        .MyPhoto {
+            width: 10em;
+            height: 10em;
+            border-radius: 50% 25%;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icon img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 50%;
+        }
+
+        .social-icon img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 10px rgba(128, 128, 255, 1);
+        }
+        .paddingBefore{
+            margin-top: 100vh;
+            border-radius: 12.5%;
         }
     </style>
 </head>
+
 <body>
-    <h1>Welcome to Justice Vellacott's Page</h1>
-    <p>Check out my latest project, <strong>RealBibleApp</strong>, designed to enhance Bible study with smart cross-referencing.</p>
-    <a class="button" href="https://github.com/TheJusticeMan/RealBibleApp" target="_blank">Go to RealBibleApp</a>
+
+    <div class="container">
+        <h1>I'm The Justice Man</h1>
+        <img src="Me.png" class="MyPhoto" alt="I'm The Justice Man">
+
+        <div class="bio">
+            <p>I'm a music producer, coder, and writer dedicated to crafting impactful stories and powerful electronic
+                music. My work blends deep themes with high-energy beats, and I strive to make a lasting impact through
+                creativity and faith.</p>
+        </div>
+
+        <h2>Real Bible App</h2>
+        <p>The ultimate Bible study tool with smart cross-referencing and intuitive search. Dive deeper into Scripture
+            effortlessly.</p>
+        <a href="https://thejusticeman.github.io/realbibleapp/" class="button" target="_blank">Open RealBibleApp</a>
+
+        <h2>Music</h2>
+        <p>Explore my unique blend of techno, dance, and instrumental music. Featuring powerful synths, deep bass, and
+            melodies that stick with you.</p>
+        <a href="https://thejusticeman.github.io/Music/" class="button" target="_blank">Check out my Music</a>
+
+        <h2>Follow Me</h2>
+        <p>Stay connected on social media and streaming platforms:</p>
+
+        <div class="social-links">
+            <a href="https://open.spotify.com/artist/7z7Vj4oRbksmiIXgvQqVkq" target="_blank" class="social-icon">
+                <img src="Spotify_icon.svg" alt="Spotify">
+            </a>
+            <a href="https://www.youtube.com/@thejusticeman/releases" target="_blank" class="social-icon">
+                <img src="YouTube_Music_icon_2024.svg" alt="YouTube">
+            </a>
+            <a href="https://www.instagram.com/imthejusticeman" target="_blank" class="social-icon">
+                <img src="Instagram_logo_2016.svg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/justicevellacott" target="_blank" class="social-icon">
+                <img src="Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+            <a href="https://x.com/TheJusticeMan42" target="_blank" class="social-icon">
+                <img src="X_logo_twitter_new_brand_icon.svg" alt="Twitter (X)">
+            </a>
+        </div>
+        <h2>About Me</h2>
+        <p>I'm The Justice Man, a passionate music producer, coder, and writer. My mission is to create meaningful and
+            impactful work that resonates with people through music, technology, and storytelling. Faith and creativity
+            drive everything I do.</p>
+        <h3>Fun Fact:</h3>
+        <p>As a kid, I reverse-engineered WAV and BMP files just to figure out how sound and images work. No internet,
+            just trial and error.
+        <p>
+    </div>
+    <img src="Share.svg" class="paddingBefore" alt="Share QR code">
+
+
 </body>
+
 </html>
