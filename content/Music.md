@@ -1,5 +1,5 @@
 ---
-title: Music
+title: My Music
 description: Electronic Music Producer & Artist. EDM tracks blending techno, faith, and emotion. Stream, explore stories, and discover Jesus through the sound.
 ---
 # Im The Justice Man - Electronic Music Producer & Artist
