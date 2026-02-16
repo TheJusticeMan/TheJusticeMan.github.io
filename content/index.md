@@ -1,8 +1,8 @@
 ---
 title: Justice Vellacott - I'm The Justice Man
 description: Coder, writer, EDM producer, and Christian innovator. Exploring tech, stories, faith, and music to give life and make an impact.
-theme: maroon-blue
 ---
+
 # Welcome to the Justice Zone
 
 ![[attachments/Pasted image 20260216094841.png]]
