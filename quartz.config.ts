@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Justice Vellacott",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f8f9fa",
+          lightgray: "#e0e0e0",
+          gray: "#888888",
+          darkgray: "#444444",
+          dark: "#1a1a1a",
+          secondary: "#00acc1", // Muted Cyan for light mode readability
+          tertiary: "#d81b60", // Muted Crimson
+          highlight: "rgba(0, 172, 193, 0.1)",
+          textHighlight: "#00acc144",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0a0a0a", // Deeper black to match the image background
+          lightgray: "#1e1e1e",
+          gray: "#757575",
+          darkgray: "#d1d1d1",
+          dark: "#ffffff",
+          secondary: "#00e5ff", // The vibrant Cyan from the left light
+          tertiary: "#ff0055", // The punchy Red from the right light
+          highlight: "rgba(0, 229, 255, 0.15)",
+          textHighlight: "#00e5ff88",
         },
       },
     },
