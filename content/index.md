@@ -19,7 +19,7 @@ theme: maroon-blue
 
 ## Creations
 
-### [[Music]] (I'm The Justice Man)
+### [[My Music]] (I'm The Justice Man)
 
 Blending techno-EDM with emotional depth, inspired by Alan Walker and TobyMac. DistroKid-powered tracks like "Epic Bitcrush" aim to spark joy, and maybe point to Jesus.
 
